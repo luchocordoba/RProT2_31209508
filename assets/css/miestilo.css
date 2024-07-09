@@ -1,0 +1,143 @@
+body {
+    background-color: #eaf2e3;
+    color: #333;
+
+    font-family: Arial, sans-sherif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.subrayado {
+    text-decoration: underline;
+}
+
+/*Estilo para etiquetas semanticas*/
+
+header {
+    background-color: #4caf50;
+    color: #ebe3e3;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #4caf50;
+    color: #ebe3e3;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #4caf50; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+
+footer.div.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+body{
+    padding-top:4.2rem;
+    padding-bottom:4.2rem;
+    background:rgba(0, 0, 0, 0.76);
+    }
+    a{
+     text-decoration:none !important;
+     }
+     h1,h2,h3{
+     font-family: 'Kaushan Script', cursive;
+     }
+      .myform{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 1000px;
+     }
+     .tx-tfm{
+     text-transform:uppercase;
+     }
+     .mybtn{
+     border-radius:50px;
+     }
+    
+     .login-or {
+     position: relative;
+     color: #aaa;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     }
+     .span-or {
+     display: block;
+     position: absolute;
+     left: 50%;
+     top: -2px;
+     margin-left: -25px;
+     background-color: #fff;
+     width: 50px;
+     text-align: center;
+     }
+     .hr-or {
+     height: 1px;
+     margin-top: 0px !important;
+     margin-bottom: 0px !important;
+     }
+     .google {
+     color:white;
+     width:100%;
+     height:40px;
+     text-align:center;
+     outline:none;
+     border: 1px solid lightgrey;
+     }
+      form .error {
+     color: #4caf50;
+     }
+     #second{display:none;}
+
+
+
+/* Estilos para las imágenes */
+
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+    
